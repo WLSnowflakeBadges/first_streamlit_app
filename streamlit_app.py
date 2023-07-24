@@ -53,6 +53,6 @@ def insert_new_fruit(new_fruit):
     return f"Thanks for adding {new_fruit}"
 
 add_fruit = streamlit.text_input('What fruit would you like to add?')
-if streamlit.button('Add a Fruit to the List"):
+if streamlit.button('Add a Fruit to the List'):
   message = insert_new_fruit(add_fruit)
   streamlit.text(message)
